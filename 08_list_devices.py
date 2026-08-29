@@ -3,10 +3,10 @@ import time
 from getpass import getpass
 
 
-username = 'jakir'
-password = 'Hoss1234'
+username = 'XXX'
+password = 'XXXX'
 
-DEVICE_LIST = ['192.168.184.' + str(n) for n in range(141,142)]
+DEVICE_LIST = ['192.168.XXX.' + str(n) for n in range(141,142)]
 for RTR in DEVICE_LIST:
 
 
