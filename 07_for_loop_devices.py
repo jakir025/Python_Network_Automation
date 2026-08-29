@@ -3,11 +3,11 @@ import time
 from getpass import getpass
 
 
-username = 'jakir'
-password = 'Hoss1234'
+username = 'XXX'
+password = 'XXXX'
 
 for R in range(141,143):
-	ip = '192.168.184.' + str(R)
+	ip = '192.168.XX.' + str(R)
 	print ('\n #### Connecting to the device ' + ip + '###\n')
 	SESSION = paramiko.SSHClient()
 	SESSION.set_missing_host_key_policy(paramiko.AutoAddPolicy())
