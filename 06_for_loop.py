@@ -4,9 +4,9 @@ from getpass import getpass
 # ip = input('Enter IP:')
 # username = input('Enter username:')
 # password = input('Enter password:')
-ip = '192.168.184.141'
-username = 'jakir'
-password = 'Hoss1234'
+ip = '192.168.XXX.XX'
+username = 'XXXXX'
+password = 'XXXXX'
 a = int (input ('Enter first loopback in range : '))
 b = int (input ('Enter last loopback in range : ')) + 1
 SESSION = paramiko.SSHClient()
