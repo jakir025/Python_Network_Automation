@@ -4,9 +4,9 @@ from getpass import getpass
 # ip = input('Enter IP:')
 # username = input('Enter username:')
 # password = input('Enter password:')
-ip = '192.168.184.141'
-username = 'jakir'
-password = 'Hoss1234'
+ip = '192.168.XX.XX'
+username = 'XXXX'
+password = 'XXXX'
 SESSION = paramiko.SSHClient()
 SESSION.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 SESSION.connect(ip,port=22,
