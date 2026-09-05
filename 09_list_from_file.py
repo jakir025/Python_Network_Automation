@@ -3,7 +3,7 @@ import time
 from getpass import getpass
 
 username = 'jakir'
-password = 'Hoss1234'
+password = 'XXX'
 
 # Open the file using a context manager ('with') to ensure proper file closing
 with open('09_devices', 'r') as file:
