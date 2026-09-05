@@ -6,9 +6,9 @@ from getpass import getpass
 # 2. Used getpass() so you don't hardcode sensitive passwords
 RTR_141 = {
     'device_type': 'cisco_ios',
-    'ip':        '192.168.184.141',
+    'ip':        '192.168.XX.XX',
     'username':    'jakir',
-    'password':  'Hoss1234',
+    'password':  'XXXX',
 }
 RTR_142 = {
     'device_type': 'cisco_ios',
