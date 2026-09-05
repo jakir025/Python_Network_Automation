@@ -5,7 +5,7 @@ import datetime
 TNOW = datetime.datetime.now().replace(microsecond=0)
 
 username = 'jakir'
-password = 'Hoss1234'
+password = 'XXXX'
 
 # Open the file using a context manager ('with') to ensure proper file closing
 with open('09_devices_strip', 'r') as file:
