@@ -5,7 +5,7 @@ import datetime
 TNOW = datetime.datetime.now().replace(microsecond=0)
 
 username = 'jakir'
-password = 'Hoss1234'
+password = 'XXXX'
 scp_pass = getpass( prompt = 'Enter scp server password :' )
 
 # Open the file using a context manager ('with') to ensure proper file closing
