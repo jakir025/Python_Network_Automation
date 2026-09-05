@@ -2,9 +2,9 @@ from netmiko import ConnectHandler
 
 
 RTR_10= {'device_type':'cisco_ios',
-'host':    '192.168.184.141',
+'host':    '192.168.XX.XX',
 'username': 'jakir',
-'password':'Hoss1234',}
+'password':'XXX',}
 
 net_connect=ConnectHandler(**RTR_10)
 config_commands = [ 'int lo0',
